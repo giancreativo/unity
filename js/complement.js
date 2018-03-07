@@ -1,3 +1,4 @@
+! function() {
     "use strict";
     function t(t, e) {
         for (var n = 0; n < t.length && !1 !== e.call(t[n], n, t[n]); n++);
